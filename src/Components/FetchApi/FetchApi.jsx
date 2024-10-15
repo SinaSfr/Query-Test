@@ -4,13 +4,11 @@ import { useSearchParams } from 'react-router-dom'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 
-
-
 export default function FetchApi() {
     const [pageUrl, setPageUrl] = useSearchParams()
     const [datas, setDatas] = useState([])
     const [query, setQuery] = useState("")
-
+     
     const getApi = () => {
         axios.get("https://670b6fe8ac6860a6c2cc0655.mockapi.io/products")
         .then(res => setDatas(res.data))

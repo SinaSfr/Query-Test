@@ -5,6 +5,7 @@ import AppRoutes from "../routes"
 import Counter from "./Components/Counter/Counter"
 import FetchApi from "./Components/FetchApi/FetchApi"
 import UseSkeleton from "./Components/use-skeleton/UseSkeleton"
+import SkeletonContent2 from "./Components/SkeletonContent2/SkeletonContent2"
 
 
 
@@ -14,8 +15,10 @@ function App() {
         {/* <Navbar/> */}
         {/* <AppRoutes/> */}
         {/* <Counter/> */}
-        <FetchApi/>
+        {/* <FetchApi/> */}
         {/* <UseSkeleton/> */}
+
+        <SkeletonContent2/>
       </>
   )
 }
