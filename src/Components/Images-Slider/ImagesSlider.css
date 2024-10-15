@@ -1,0 +1,9 @@
+.my-swiper .swiper-pagination-bullet{
+    @apply bg-gray-900;
+}
+.my-swiper .swiper-pagination-bullet-active{
+    @apply bg-green-900 ;
+}
+.my-swiper .swiper-pagination{
+    @apply relative mt-4;
+}
