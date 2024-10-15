@@ -6,6 +6,7 @@ import Counter from "./Components/Counter/Counter"
 import FetchApi from "./Components/FetchApi/FetchApi"
 import UseSkeleton from "./Components/use-skeleton/UseSkeleton"
 import SkeletonContent2 from "./Components/SkeletonContent2/SkeletonContent2"
+import SkeletonContent1 from "./Components/skeleton-content1/SkeletonContent1"
 
 
 
@@ -17,7 +18,7 @@ function App() {
         {/* <Counter/> */}
         {/* <FetchApi/> */}
         {/* <UseSkeleton/> */}
-
+        <SkeletonContent1/>
         <SkeletonContent2/>
       </>
   )
