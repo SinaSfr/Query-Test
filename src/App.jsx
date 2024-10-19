@@ -11,7 +11,7 @@ import UseSkeleton from "./Components/use-skeleton/UseSkeleton"
 function App() {
   return (
       <>
-        {/* <Navbar/> */}
+            {/* <Navbar/> */}
         {/* <AppRoutes/> */}
         {/* <Counter/> */}
         <FetchApi/>
